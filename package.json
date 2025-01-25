@@ -1,0 +1,25 @@
+{
+    "name": "last-shield",
+    "version": "1.0.0",
+    "description": "A library for authentication and authorization management.",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "start": "node dist/index.js"
+    },
+    "keywords": ["authentication", "authorization", "typescript"],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "jsonwebtoken": "^8.5.1" 
+    },
+    "devDependencies": {
+      "typescript": "^4.5.4", 
+      "jest": "^27.0.6",      
+      "@testing-library/react": "^12.1.5", 
+      "@types/jest": "^27.0.2", 
+      "@types/react": "^17.0.39", 
+      "@types/react-dom": "^17.0.11" 
+    }
+  }
